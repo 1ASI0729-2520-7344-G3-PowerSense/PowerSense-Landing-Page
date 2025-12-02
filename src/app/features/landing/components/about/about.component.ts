@@ -22,7 +22,7 @@ interface ValueItem {
 })
 export class AboutComponent implements OnInit, AfterViewInit {
   productVideoUrl = 'https://www.youtube.com/embed/4SaBmnv66zs';
-  teamVideoUrl = 'https://www.youtube.com/embed/j2gacuOa0uI';
+  teamVideoUrl = 'https://www.youtube.com/embed/ydcSJJMU9rg';
 
   constructor(private sanitizer: DomSanitizer) {}
 
