@@ -32,7 +32,7 @@ export class HeroComponent implements OnInit, AfterViewInit, OnDestroy {
   private themeSubscription: Subscription | null = null;
   private countAnimationStarted = false;
   private observer: IntersectionObserver | null = null;
-  readonly appUrl = 'https://happy-stone-091814410.6.azurestaticapps.net/';
+  readonly appUrl = 'https://1asi0729-2520-7344-g3-powersense.github.io/PowerSense-Fronted/dashboard';
 
   constructor(
     private themeService: ThemeService,
