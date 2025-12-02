@@ -21,7 +21,7 @@ interface ValueItem {
   styleUrls: ['./about.component.scss']
 })
 export class AboutComponent implements OnInit, AfterViewInit {
-  productVideoUrl = 'https://youtu.be/4SaBmnv66zs';
+  productVideoUrl = 'www.youtube.com/watch?v=4SaBmnv66zs&feature=youtu.be';
   teamVideoUrl = '';
 
   constructor(private sanitizer: DomSanitizer) {}
