@@ -45,7 +45,7 @@ declare var AOS: any;
 export class SuccessCasesComponent implements OnInit, AfterViewInit {
   cases: SuccessCase[] = [];
   brands: Brand[] = [];
-  readonly appUrl = 'https://happy-stone-091814410.6.azurestaticapps.net/';
+  readonly appUrl = 'https://1asi0729-2520-7344-g3-powersense.github.io/PowerSense-Fronted/dashboard';
 
    openApp(): void {
     window.open(this.appUrl, '_blank');
