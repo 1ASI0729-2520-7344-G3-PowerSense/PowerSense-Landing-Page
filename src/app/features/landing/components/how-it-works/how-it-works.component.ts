@@ -87,7 +87,7 @@ export class HowItWorksComponent implements OnInit, OnDestroy {
   isDarkMode = false;
 
   constructor(private themeService: ThemeService) {}
-  readonly appUrl = 'https://happy-stone-091814410.6.azurestaticapps.net/';
+  readonly appUrl = 'https://1asi0729-2520-7344-g3-powersense.github.io/PowerSense-Fronted/dashboard';
 
    openApp(): void {
     window.open(this.appUrl, '_blank');
